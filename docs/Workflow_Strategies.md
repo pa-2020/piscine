@@ -4,17 +4,17 @@ A good **workflow** positions all of the tools, processes and people for **optim
 
 1. Commit **all changes** that complete a task in a **single commit operation** to keep the project **consistent at all time**.
 
-   e. **Review code** and the **code's norme (norminette)** before committing to the shared branch.
+   a. **Review code** and the **code's norme (norminette)** before merging to the shared branch.
 
+   b. Do not merge **incomplete commit**.
+   
+      * It might build locally in your work area and pass all tests. But it could **break** in another team member’s work area.
+      
    c. **Small commits** make it easier for other developers to understand the changes and roll them back if something went wrong.
    
       * **Example**: *fixing a bug or adding a new feature*. *fixing two different bugs should produce **two separate commits**.*
 
-   d. Do not merge **incomplete commit**.
-   
-      * It might build locally in your work area and pass all tests. But it could **break** in another team member’s work area.
-   
-   g. A commit is **not a backup** of your current state of your local files, **even if it occurs at the end of the day**.
+   d. A commit is **not a backup** of your current state of your local files, **even if it occurs at the end of the day**.
    
       * No branch should have partial or incomplete changes.
 
