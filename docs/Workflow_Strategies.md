@@ -1,4 +1,4 @@
-# Workflow Strategies Best Practices :sparkles:
+# Team Strategies Best Practices :sparkles:
 
 A good **workflow** positions all of the tools, processes and people for **optimum** *happiness* and *productivity*.
 
