@@ -12,7 +12,7 @@ A good **workflow** positions all of the tools, processes and people for **optim
       
    c. **Small commits** make it easier for other developers to understand the changes and roll them back if something went wrong.
    
-      * **Example**: *fixing a bug or adding a new feature*. *fixing two different bugs should produce **two separate commits**.*
+      * **Example**: *fixing two different bugs should produce **two separate commits**.*
 
    d. A commit is **not a backup** of your current state of your local files, **even if it occurs at the end of the day**.
    
