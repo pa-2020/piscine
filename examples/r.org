@@ -1,0 +1,41 @@
+* emacs
+|---------------+----------------------------|
+| /combinacion/ | /descripcion/              |
+|---------------+----------------------------|
+| c-x c-s       | *save*                     |
+| c-x c-c       | *close*                    |
+| c-x c-f       | open *file*                |
+|---------------+----------------------------|
+| c-x 3         | horizontal split           |
+| c-x 2         | vertical split             |
+| c-x o         | pass to *other* window     |
+| c-x ->        | next file in buffer        |
+| c-x <-        | prev file in buffer        |
+|---------------+----------------------------|
+| c-/           | undo                       |
+| c-<space>     | start selection            |
+| c-k           | cut everything in left     |
+| c-w           | cut selection              |
+| c-y           | paste selection            |
+|---------------+----------------------------|
+| c-g           | cancela loquesea           |
+|---------------+----------------------------|
+| Alt-i         | force tab                  |
+| c-x c-t       | swap upper and actual line |
+|---------------+----------------------------|
+
+* git
+|-------------------------+---------------------------------------------------------|
+| comando                 | descripcion                                             |
+|-------------------------+---------------------------------------------------------|
+| git clone <link repo>   | descarga todos los archivos de un repositorio           |
+|                         | si es tuyo podes modificarlo                            |
+|-------------------------+---------------------------------------------------------|
+| git add <path/file>     | añade los cambios (añadir/modificar/borrar archivos)    |
+|-------------------------+---------------------------------------------------------|
+| git commit -m <message> | clasificas los cambios con un mensaje antes de subirlos |
+|-------------------------+---------------------------------------------------------|
+| git push [branch]       | podes poner solo "git push" (subir cambios a la rama)   |
+|                         | en 42 no habran ramas, solo el tronco principal         |
+|                         | por eso "git push" = "git push origin master"           |
+|-------------------------+---------------------------------------------------------|
