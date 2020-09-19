@@ -2,7 +2,7 @@
 
 A good **workflow** positions all of the tools, processes and people for **optimum** *happiness* and *productivity*.
 
-1. Commit Files With a Single Purpose — Not as a Backup
+1. Commit **all files** that belong to an *entire* task in a *single operation* to keep the project **consistent at all times**.
 
    a. For example; fixing a bug or adding a new feature. fixing two different bugs should produce two separate commits.
 
