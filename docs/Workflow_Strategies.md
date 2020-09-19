@@ -8,7 +8,7 @@ A good **workflow** positions all of the tools, processes and people for **optim
 
    c. **Small commits** make it easier for other developers to understand the changes and roll them back if something went wrong.
    
-      * **Example** *fixing a bug or adding a new feature*. *fixing two different bugs should produce **two separate commits**.*
+      * **Example**: *fixing a bug or adding a new feature*. *fixing two different bugs should produce **two separate commits**.*
 
    d. Do not merge **incomplete commit**.
    
@@ -20,7 +20,7 @@ A good **workflow** positions all of the tools, processes and people for **optim
 
 2. **Only** add content or modify the files that **belong to you and to your task**.
 
-   a. With the exception of common files, where everyone can **add content** (*`prototypes`:header file* and *`file names`:Makefile*) but **not make changes** without the agreement of **every developer concerned**.
+   a. With the exception of common files, where everyone can **add function prototypes or crate new structures** (asm.h) but **not make changes** without the agreement of **every developer concerned**.
 
 3. If you need a *change on another developer's code*, **request the changes to the developer** or **explain to him your needs**.
 
