@@ -2,18 +2,28 @@
 
 A good **workflow** positions all of the tools, processes and people for **optimum** *happiness* and *productivity*.
 
-1. Commit **all files** that belong to an *entire* task in a *single operation* to keep the project **consistent at all times**.
+1. Commit **all files** that belong to an *entire task* in a *single operation* to keep the project **consistent at all times**.
 
-   a. For example; fixing a bug or adding a new feature. fixing two different bugs should produce two separate commits.
+   a. For example; fixing a bug or adding a new feature. *fixing two different bugs should produce two separate commits.*
 
    b. No other user should see partial or incomplete changes.
 
-   c. Small commits make it easier for other developers to understand the changes and roll them back if something went wrong.
+   c. **Small commits** make it easier for other developers to understand the changes and roll them back if something went wrong.
 
-   d. An incomplete commit might build locally in your work area and pass all tests. But it could break in another team member’s work area.
+   d. An incomplete commit might build locally in your work area and pass all tests. But it could **break** in another team member’s work area.
 
-   e. Review code before committing to the mainline.
+   e. **Review code** and the **code's norme (norminette)** before committing to the shared branch.
 
-   f. Make commits reversible
+   f. Make commits **reversible**.
    
-   g. A commit is not a backup of your current state of your local files, even if it occurs at the end of the day.
+   g. A commit is **not a backup** of your current state of your local files, **even if it occurs at the end of the day**.
+
+2. **Only** add content or modify the files that **belong to you and to your task**.
+
+   a. With the exception of common files, where everyone can **add content** (*`prototypes`:header and `file names`:Makefile*) but **not make changes** without the agreement of *every developer concerned*.
+
+3. If you need a *change on another developer's code*, **request the changes to the developer** or **explain to him your needs**.
+
+   a. Under **no circumstances** should the code of another developer be modified by someone other than **himself**.
+   
+   b. The agreed modifications must satisfy the needs of **both developers** and the needs of the **project**.
