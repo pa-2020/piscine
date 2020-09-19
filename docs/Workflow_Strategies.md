@@ -20,7 +20,7 @@ A good **workflow** positions all of the tools, processes and people for **optim
 
 2. **Only** add content or modify the files that **belong to you and to your task**.
 
-   a. With the exception of common files, where everyone can **add content** (*`prototypes`:header and `file names`:Makefile*) but **not make changes** without the agreement of *every developer concerned*.
+   a. With the exception of common files, where everyone can **add content** (*`prototypes`:header file* and* `file names`:Makefile*) but **not make changes** without the agreement of *every developer concerned*.
 
 3. If you need a *change on another developer's code*, **request the changes to the developer** or **explain to him your needs**.
 
